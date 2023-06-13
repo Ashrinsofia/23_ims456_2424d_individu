@@ -1,12 +1,12 @@
 body
 {
-    background-color:rgb(156, 99, 60);
+    background-color:burlywood;
 
 }
 
 h1
 {
-    color:rgb(212, 0, 0);
+    color:rgb(179, 63, 63);
 }
 
 a
@@ -32,7 +32,7 @@ a
 .slider
 {
 width: 100%;
-background-color:rgb(108, 185, 204)
+background-color:rgb(108, 185, 204);
 }
  
 .box1
@@ -67,3 +67,45 @@ background-color:rgb(108, 185, 204)
     float:right
 
 }
+
+.content
+{
+    text-align: justify;
+    font-family: 'poppin',sans-serif;
+
+}
+
+table, tr, td, th 
+{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+td
+{
+    padding: 10px;
+}
+
+tr
+{
+    background-color: bisque;
+}
+
+
+tr:nth-child(odd)
+    {
+            background-color: azure;
+    }
+
+th
+    {
+        background-color: lightgoldenrodyellow;
+        color: black;
+    }
+
+
+
+tr:hover
+    {
+        background-color: cadetblue;
+    }
